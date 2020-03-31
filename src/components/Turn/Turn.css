@@ -1,0 +1,17 @@
+img {
+    /* width: 75%; */
+    height: 65%;
+}
+
+.turn > div {
+    height: 400px
+}
+
+.turn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.answers {
+    text-align: center;
+}
