@@ -14,4 +14,14 @@ img {
 
 .answers {
     text-align: center;
+    margin-bottom: 2.0em;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    padding: 1.4%;
+}
+
+.answers:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
 }

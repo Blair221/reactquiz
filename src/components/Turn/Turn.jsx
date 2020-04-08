@@ -8,8 +8,8 @@ const Turn = ({cosplay, animes}) => {
     <div className="col-4 offset-1">
       <img src={cosplay.imageUrl} className="cosplay-image" alt="Cosplay"/>
     </div>
-    <div className='col-6 answers'>
-      {animes.map((title) => <p>{title}</p>)}
+    <div className='col-6'>
+      {animes.map((title) => <p className="answers">{title}</p>)}
     </div>
   </div>;
 };
